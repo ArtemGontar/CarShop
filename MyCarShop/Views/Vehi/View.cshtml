@@ -1,0 +1,35 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View</title>
+</head>
+<body>
+    <div id="tableBlock"></div>
+    <div id="editBlock">
+        <h3>Редактирование книги</h3>
+        <table>
+            <tr><td><input type="hidden" id="editId" /></td><td></td></tr>
+            <tr><td><label>Название: </label></td><td><input type="text" id="editName" /></td></tr>
+            <tr><td><label>Автор: </label></td><td><input type="text" id="editAuthor" /></td></tr>
+            <tr><td><label>Год: </label></td><td><input type="number" id="editYear" /></td></tr>
+        </table>
+        <button id="editBook">Сохранить</button>
+    </div>
+    <div id="createBlock">
+        <h3>Добавление книги</h3>
+        <table>
+            <tr><td><label>Название: </label></td><td><input type="text" id="addName" /></td></tr>
+            <tr><td><label>Автор: </label></td><td><input type="text" id="addAuthor" /></td></tr>
+            <tr><td><label>Год: </label></td><td><input type="number" id="addYear" /></td></tr>
+        </table>
+        <button id="addBook">Сохранить</button>
+    </div>
+</body>
+</html>
